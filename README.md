@@ -59,7 +59,7 @@
 - !sub: És substituído caso estejas nos primeiros 5 segundos de um jogo.
 - !bb: Faz logout da sala ( é o mesmo que simplesmente sair ).
 
-## Comandos da SuperAdmin
+## Comandos de SuperAdmin
 
 - !ban: Faz !ban razão tempo nome | (ex: !ban teste 7d Azis) | tempo: 1d = 1 dia | 1h = 1 hora | 1m = 1 minuto | 1s = 1 segundo.
 - !mute: Faz !mute razão tempo nome | (ex: !mute teste 7d Azis) | tempo: 1d = 1 dia | 1h = 1 hora | 1m = 1 minuto | 1s = 1 segundo.
