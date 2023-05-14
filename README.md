@@ -65,6 +65,7 @@
 ## Comandos de SuperAdmin
 
 - !ban: Faz !ban razão tempo nome | `(ex: !ban teste 7d Azis)` | tempo: 1d = 1 dia | 1h = 1 hora | 1m = 1 minuto | 1s = 1 segundo.
+- !unban: Se o jogador estiver banido tira-lhe o ban | `(ex: !unban Azis)`
 - !mute: Faz !mute razão tempo nome | `(ex: !mute teste 7d Azis)` | tempo: 1d = 1 dia | 1h = 1 hora | 1m = 1 minuto | 1s = 1 segundo.
 - !unmute: Se o jogador estiver mutado tira-lhe o mute | `(ex: !unmute Azis)`
 - . : Comando para falares no chat da staff `(ex: . Sou lindo)` (É necessário colocar sempre um espaço entre o . e a mensagem)
