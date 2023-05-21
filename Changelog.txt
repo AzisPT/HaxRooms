@@ -1,0 +1,219 @@
+V1.0.0
+- Versão inicial.
+
+V1.0.1
+- Modificações no chat aquando enviada mensagem (Cores e negrito).
+- Elo agora é facilmente mais visível no comando !stats.
+- Quando jogador sai de AFK o contador de kick agora reseta.
+- Agora o comando !changepw está presente no !help.
+- Se moverem um jogador sem Login para a equipa red ou blue o jogador volta para os spectators.
+- Ballspeed removido por enquanto porque não é compatível com ambos os mapas que uso.
+- Já dá para procurar as stats de um usuário caso o mesmo tenha um nome com espaços (ex: !stats isto é um nome).
+- Tempo de aviso para kick por inatividade ajustado.
+- Tempo para fazer login/registo aumentado de 25 para 45 segundos.
+- Valores de % de elo ganhos/perdidos por jogo ajustados. ( Ainda posso ter que ver isto até estar perfeito ). ⚠️
+- Sistema de banimento aprimorado.
+- Corrigido um problema que fazia a sala crashar caso um jogador sem registo tentasse usar o comando !afk.
+- Corrigido um problema GRAVE que não colocava os jogadores nas equipas corretas ou por vezes nem os colocava de todo.
+- Correção de problemas mínimos.
+
+V1.0.2
+- Ballspeed adicionado novamente com valores ajustados.
+- !stats agora mostra a média de golos e assistências por jogo.
+- Correção de problemas mínimos.
+
+V1.0.3
+- Ballspeed para o mapa 3v3 novamente ajustado.
+- Correção de problemas graves na movimentação de jogadores de uma equipa para outra que poderia levar a que a sala crasha-se (Novamente) (Odeio typescript).
+- Correção de problemas no comando !afk.
+- O chat foi ajustado para melhor visibilidade e divisão entre o nome do jogador e o Prefixo "⚽ Membro".
+- Problemas com o comando de !ban que poderiam levar ao crash da sala foram resolvidos.
+- Correção de outros problemas mínimos.
+
+V1.0.4
+- Agora o número de assistências e golos por jogo vem apenas com 1 décimal (ex: 0.6 ao invés de 0.633333333333).
+- Corrigido um problema que por vezes o jogador não era movido para a equipa correta (novamente).
+- Limpeza e organização de partes do código para uma melhor eficiência.
+
+V1.0.5
+- Quando um jogador saía ou entrava AFK por vezes ficavam uma quantidade incorreta de jogadores em campo, esse problema foi corrigido.
+- Introdução do comando !mute e !unmute para SuperAdmins.
+
+V1.0.6
+- Correção de um problema grave no comando !mute que poderia levar ao crash da sala.
+- Preparação do código para receber um Discord Bot e uma API no site.
+
+V1.0.7
+- Problemas no comando !unmute resolvidos.
+- Introdução do (MUITO REQUISITADO) chat de equipa.
+
+V1.0.8
+- Caso um jogador fique AFK em um jogo 1v1 agora já levará kick.
+- De 5 em 5 minutos uma mensagem será agora enviada para relembrar os jogadores do Discord & Site (onde podem aceder à leaderboard).
+- Quando um jogador levava kick por estar à mais de 10 minutos o kick não continha uma razão pois essa mesma razão era enviada para a sala ao invés de para o jogador recetor do kick, isto foi corrigido.
+- Adicionados novos ranks à sala.
+- Ajustes no sistema de elo, e correção de um problema mínimo no mesmo.
+
+V1.0.9
+- Introdução do sistema de GK.
+- Introdução do sistema de CS. ( Sim são sistemas diferentes )
+- Colocar CS no comando !stats.
+
+V1.0.9.1
+- Resolução de problemas minímos que poderiam levar ao crash da sala.
+
+V1.0.10
+- Problemas graves corrigidos.
+- Parte do código reescrita por conta de um erro estrutural.
+- Fix's estúpidos pois estou de direta e se funciona é bom 😁.
+
+V1.1.0
+- Ajuste no comando !stats para apenas enviar SOM na primeira mensagem, não fazendo assim poluição auditiva.
+- Quem ganha vai para a equipa RED. 1v1 | 2v2 | 3v3 ( Muito requisitado ‼️ )
+- Adicionado o comando !lista para listar os jogadores que se encontram AFK.
+- Adicionada uma previsão de vitória no inicio do jogo com base na soma de elo de ambas as equipas.
+- Aprimoramentos nos comandos da Staff de modo a aumentar as suas capacidades.
+- Se o usuário tentar usar o comando !gk e o mesmo já se encontrar a GK apresentará agora um erro ao mesmo.
+- Agora os jogadores que joguem à baliza e consigam um CS recebem um valor bónus de elo.
+- Sistema de winstreak adicionado. ( SUPER Requisitado ‼️‼️ )
+- Comandos !streak e !topstreak adicionados para complementar o sistema de winstreak.
+
+V1.1.1
+- Correção de um problema no novo sistema de quem ganha vai para a RED, que por vezes não colocava os jogadores na equipa correta.
+
+V1.2.0
+
+( Este update é enorme e o mesmo foi testado intensivamente, porém, eu só tenho 2 mãos e abrir 10 separadores com 10 contas diferentes e testar tudo não é fácil, por isso atenção a bugs, caso hajam, reportar na sala indicada para tal ).
+
+- Correção de por vezes colocar um número de jogadores acima do desejado na equipa blue.
+- Alguns comandos encontram-se agora com cores diferentes e novos emojis de modo a tornarem-se mais visiveis e informativos.
+- O ban por abandonar um jogo 3v3 nem sempre estava a ser aplicado, esse problema foi corrigido.
+- Se um jogador sair e a sua equipa estiver a perder por 2-0 e o tempo já estiver em mais de 2 minutos a partida é terminada com a vitória atribuída à equipa que estava a ganhar. ( Apenas 3v3 )
+- Se o jogador sair a meio de um jogo em que a equipa esteja a perder por 2-0 e o tempo de jogo esteja em mais de 2 minutos o jogador perde 50 de elo e uma derrota (e +1 jogo) é adicionada as suas estatísticas. ( Apenas 3v3 )
+- Se já fizeste login/registo no teu computador apenas terás de o fazer novamente quando o teu player.auth mudar (Ele pode mudar em caso de limpares as cookies, alguns dados do browser, etc), se tiveres curiosidade, para veres o teu player.auth podes ir a este link: ( https://www.haxball.com/playerauth ).
+
+V1.2.1
+- Por vezes a mensagem de boas-vindas não era enviada a uma certa categoria de jogadores, esse problema foi corrigido.
+
+V1.2.2
+- Agora sempre que um jogo começa terá primeiro uma pausa de modo a dar tempo aos jogadores de se preparem para o jogo. ( Visto que os jogos começam muito rápido )
+- O tempo em que o jogo acaba/começa foi ajustado de modo a mover os jogadores enquanto o jogo não está em curso para evitar um certo spam no chat.
+
+V1.2.3
+- Se um jogador sair e a sua equipa estiver a perder por 2-1 e o tempo já estiver em mais de 2.30 minutos a partida é terminada com a vitória atribuída à equipa que estava a ganhar. ( Apenas 3v3 )
+- Se um jogador sair e a sua equipa estiver a perder por 1-0 e o tempo já estiver em mais de 2.30 minutos a partida é terminada com a vitória atribuída à equipa que estava a ganhar. ( Apenas 3v3 )
+
+V1.2.4
+- Sistema que checka os ban's à entrada foi aprimorado e é agora ainda mais preciso.
+- O ban encontra-se agora ainda mais poderoso a evitar ban-evades.
+- Agora a hora no ban é um valor mais pequeno e mais fácil de ler.
+- Quando um jogador envia uma mensagem e está mute agora o valor exibido é um valor mais pequeno e mais fácil de ler.
+- Sistema de mute está mais eficiente no geral.
+- Antes caso o jogador estivesse mute ainda era possível enviar mensagens no chat de equipa, essa opção foi agora removida.
+
+V1.2.5
+- Quando um jogador entrava e o mesmo estava banido um login era colocado em seu nome porém não era retirado, e quando o ban terminava o jogador poderia encontrar o erro "🚫 Já estás logado.", esse problema foi corrigido.
+- Corrigido um typo na mensagem que aparece 5 em 5 minutos.
+
+V1.2.6
+- Compassos de tempos adicionados em algumas funções.
+- Chat da Staff. ( Obrigado pela ideia ICardi )
+- Aumento da capacidade de administração. ( Este update apenas beneficia o Azis )
+- !help Comando leitura é agora mais fácil.
+- Alocação de recursos para a sala é agora maior, logo a sala deverá lagar ainda menos e o ping deverá reduzir ainda mais (Na casa dos 2 a 4ms)
+
+V1.2.7
+- Por sugestão de alguns jogadores o tempo de banimento caso um jogador saia da sala a meio de um jogo é agora menor.
+- Comando !sub para retirar-te de uma equipa no ínicio de um jogo 3v3, caso não o possas jogar, toma em consideração que apenas podes usar este comando desde o pré-jogo até aos 5 segundos de jogo.
+- Adição da WinRate no comando !stats.
+- Ajustados valores no comando !rank para o Tier 1.
+
+V1.2.8
+- Se um jogador sair no final de um jogo em que perca por 3 a 0, 3 a 1 ou 3 a 2, agora o jogador é prejudicado e o jogo reiniciado com as equipas devidamente distríbuidas não afetando assim o jogador que ia para a equipa que perdeu.
+
+V1.2.9
+- Correção de alguns typos.
+- Linhas do Mapa de Futsal 3v3 ajustadas para apenas ser golo quando a bola passa a linha a 100%. ( A linha em si não é vísivel aos jogadores, pórem foi ajustada e testada. )
+- Ajuste visual do mapa NoGoal e do Mapa Aquecimento para ser visualmente semelhante ao mapa 3v3.
+- Ajuste visual nas cores das equipas.
+
+V1.2.10
+- Recalibrar o BallSpeed no mapa 3v3 visto que após a alteração do mapa na V1.2.9 a mesma descalibrou.
+- Existia um problema que por vezes quando uma equipa ganhava a mensagem de vitória aparecia mais que uma vez e o elo entregue não fosse o correto, esse problema encontra-se agora corrigido.
+
+V1.2.11
+- **Muito raramente** o resultado obtido no final do jogo nem sempre era mostrado corretamente o que de certa forma poderia levar a jogadores não serem movidos para a equipa correta, este problema foi corrigido.
+- Proteção contra DoubleLogin reforçada.
+
+V1.2.12
+- Caso um usuário já estivesse registado porém não estivesse logado o mesmo não iria receber qualquer mensagem de boas-vindas, isso foi corrigido.
+- Quando um usuário era autenticado automaticamente o mesmo recebia uma mensagem muito simples comparativamente às de registo/login, agora a mensagem apresenta mais informação ao jogador.
+
+V1.2.13
+- Resolução de bugs e adição de alguns novos para me divertir depois a resolve-los.
+
+V1.2.14
+- Melhoramentos no BAN e MUTE.
+- Mute agora passa de conta para conta e é mais dificil de dar bypass.
+- Introdução do team chat para os spectators ( Sugestão dada por @Noite ).
+
+V1.2.15
+- Reorganização de parte do código para melhor funcionamento do mesmo.
+- Agora quando um jogador entra ou sai de AFK a mensagem é mais facilmente visível, pórem o seu som foi removido para diminuir a poluição auditiva.
+- Agora a mensagem que aparece no chat após a utilização do comando !sub por parte de um jogador vai clarificar de qual equipa o mesmo saiu.
+- Sistema de elo reescrito para uma melhor eficiência, os pontos ganhos/perdidos deverão no entanto ser os mesmos.
+- Tempo do ban automático por saída a meio da partida ajustado de 2 minutos para 1.
+- Valor do Elo do Tier 2 ajustado de 800 para 500, sendo assim mais fácil obter Tier 2 para a malta afundada no Tier 1.
+
+V1.2.16
+- Um problema grave no mute que poderia fazer com que o mesmo fosse "Ignorado" foi corrigido.
+- Correção de outros problemas mínimos & typos.
+
+V1.2.17
+- Limite de registo de 2 contas por pessoa adicionado.
+- Texto após o !login e !registo alterado para ser mais explicíto.
+- Comments no código que estão a mais removidos.
+- Limpeza de coisas que já não necessito no código.
+
+V1.3.0
+- Comando !prev adicionado para verificar a previsão de vitória entre ambas as equipas.
+- Mensagem automática que aparece de 5 em 5 minutos foi complementada com mais informações.
+- Sempre que a !topstreak for batida uma mensagem vai aparecer no chat a anunciar o mesmo.
+- Texto do !help afk ajustado para melhorar a informação que transmite.
+- Introdução das mensagens privadas, ver #comandos para perceber como se envia as mesmas.
+- Caso o jogador não estivesse com login efetuado e enviasse mensagem no Team Chat dos spectators a mensagem era enviada sem problema, esse problema foi corrigido.
+- Caso o jogador não estivesse com login efetuado numa conta da staff o mesmo podia receber mensagens no chat da staff, esse problema foi corrigido.
+- Caso o jogador não estivesse com login efetuado numa conta da staff conseguia enviar mensagens para o chat da staff, esse problema foi corrigido.
+- Optimização do código para melhor eficiência da sala.
+
+V1.3.1
+- A mensagem do comando !prev não continha som, esse problema foi corrigido.
+- Mensagem de 5 em 5 minutos é agora mais eficiente a passar informação.
+- Se um banimento não for aplicado com um comando de superadmin ele é removido automaticamente.
+- DM's podem agora ser enviadas tanto com o prefixo @ ou com o prefixo # para ser mais fácil visto que o # dá logo a ID do jogador.
+- GeoLocalização da Sala alterada do Porto para Vila Real, de modo a que seja uma região mais central. ( Geolocalizações de Lisboa & Santarém apresentam uma distância maior para quem vive no centro!? )
+- Código é agora mais compacto e eficiente.
+
+V1.4.0
+- Reestruturação parcial (800 linhas) do código.
+- Otimização do código.
+- Já não é possível enviar DM's com o prefixo @ apenas será possível enviar com o prefixo #.
+- Sistema de detecção dos GK's foi aprimorado.
+- Sistema de anúncio dos GK's foi aprimorado.
+- Calculo da velocidade da bola ajustado para obter valores mais corretos no mapa 3v3.
+
+( Update enorme a nível interno, pode conter bugs )
+
+V1.4.1
+- Ranks atualizados ver #ranks para mais informações.
+
+V1.4.2
+- Remoção completa do comando @ do !help.
+- Correção de um typo no comando #.
+
+V1.4.3
+- Adição de novo comando para facilitar a administração da sala.
+- Remoção de menções ao antigo comando de DM's com uso ao @.
+
+V1.4.4
+- Agora os prefixos dos nomes também estarão presentes nos team chats.
