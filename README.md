@@ -37,11 +37,11 @@
 
 2º Importar o ficheiro `Database Limpa.sql` para a tua database no MySQL.
 
-2º Modificar o ficheiro .env com os dados da tua database.
+2º Modificar o ficheiro `.env` com os dados da tua database e o ficheiro `room.ts` com a respetiva token e nome da sala.
 
-3º Abrir o cmd navegar até à pasta onde o BOT se encontra e executar o comando: `npm install`.
+3º Executar o arquivo: `Instalar.bat`.
 
-4º De seguida executar o comando: `npm start`.
+4º De seguida executar o arquivo: `Iniciar.bat`.
 
 ## Comandos de usuário
 
