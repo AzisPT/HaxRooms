@@ -2,7 +2,7 @@
 
 ### Features
 
-- [x] Conexão a Database
+- [x] Conexão à Database
 - [x] Sistema Login/Registo por password
 - [x] Sistema de Login automático após o 1º login
 - [x] Password encriptada em BCrypt
